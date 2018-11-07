@@ -1,0 +1,9 @@
+development:
+    host: 127.0.0.1
+    adapter: postgresql
+    encoding: unicode
+    database: hello_app
+    pool: 5
+    username: deploy
+    password: deploy
+    timeout: 5000
