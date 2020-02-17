@@ -4,8 +4,4 @@ class ApplicationController < ActionController::Base
 	def hello
 	    render html: "hello, world!"
 	end
-
-	def welcome
-		puts "Welcome"
-	end
 end
